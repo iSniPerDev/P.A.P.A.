@@ -1,4 +1,70 @@
-.test {
-    font-size: 50px;
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.site-header {
+    background-color: #256cbe;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Ajusta el tamaño de acuerdo a tu logo */
+    height: auto;
+}
+
+.title h1 {
+    margin: 0;
+    margin-left: 300px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Contenido Principal */
+.content {
+    padding: 20px;
+}
+
+.main-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Pie de Página */
+.site-footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
